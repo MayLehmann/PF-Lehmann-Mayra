@@ -18,60 +18,129 @@
 /*********************                    
  *ESTILOS DEL HEADER *
  *********************/
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url(../Multimedia1/color12.png);
-    margin:0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 240px;
-    position: relative;
+/* mobile*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image: url(../Multimedia1/color12.png);
 }
 
-
-.header img {
-    display:flex;
-    object-fit: cover;
-    justify-content: flex-start;
-}
-
-
-/*/títulos del header/*/
-.header-texts{
-    display: flex;
-    flex-direction: column;
-}
-
-
-/*/ uno a uno/*/
-
-.header-texts h1 {
-    display: flex;
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
     color:#2B8C71;
     font-family:'raleway';
-    font-size: 50px;
     font-weight: 700;
     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    margin-bottom: 10px;
 }
 
-
-.header-texts h2 {
-    display: flex;
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-bottom: 0;
     color: #BA384A;
     font-family:'raleway';
-    font-size: 35px;
     font-weight: 500;  
     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-        
 }
 
+/*tablet*/
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color:#2B8C71;
+    font-family:'raleway';
+    font-weight: 700;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
 
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #BA384A;
+    font-family:'raleway';
+    font-weight: 500;  
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+  .header-brand {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color:#2B8C71;
+    font-family:'raleway';
+    font-weight: 700;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  h2 {
+    font-size: 3rem;margin-bottom: 0;
+    color: #BA384A;
+    font-family:'raleway';
+    font-weight: 500;  
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+}
+
+/*******************
+*   media querys   *
+*******************/
+
+/*para títulos h1*/
+/* mobile */
+@media only screen and (max-width: 767px) {
+    h1 {
+     font-size: 24px;
+     color:#D91828;
+     font-family: 'raleway';
+     font-weight: normal;
+     text-align:center;
+     line-height: 1.5;
+     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    }
+  }
+  
+  /* tablet */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+     font-size: 46px;
+     color:#D91828;
+     font-family: 'raleway';
+     font-weight: normal;
+     text-align:center;
+     line-height: 1.5;
+     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    }
+  }
+  
+  /* desktop */
+  @media only screen and (min-width: 1024px) {
+    h1 {
+     font-size: 70px;
+     color:#D91828;
+     font-family: 'raleway';
+     font-weight: normal;
+     text-align:center;
+     line-height: 1.5;
+     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    }
+  }
 
 /*********************                    
  *ESTILOS DEL NAVBAR *
@@ -126,16 +195,6 @@
     padding:7% ;
 }
 
-.green-block h1 {
-    color:#D91828;
-    font-family: 'raleway';
-    font-weight: normal;
-    font-size: 80px;
-    text-align:center;
-    line-height: 1.5;
-    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-}
-
 
 .green-block p {
     font-family: 'raleway';
@@ -159,16 +218,45 @@
     color:#4EBF56;
     
 }
-
-.white-block  h1 {
-    text-align:center;
-    font-size:80px;
-    font-family:'raleway';
-    font-weight:normal;
-    color:#D91828;
-    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-    line-height: 1.5;
-}
+/* mobile*/
+@media only screen and (max-width: 767px) {
+    h1 {
+    padding-top: 30px;
+     font-size: 24px;
+     color:#D91828;
+     font-family: 'raleway';
+     font-weight: normal;
+     text-align:center;
+     line-height: 1.5;
+     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    }
+  }
+  
+  /* tablet */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+     font-size: 46px;
+     color:#D91828;
+     font-family: 'raleway';
+     font-weight: normal;
+     text-align:center;
+     line-height: 1.5;
+     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    }
+  }
+  
+  /* desktop */
+  @media only screen and (min-width: 1024px) {
+    h1 {
+     font-size: 70px;
+     color:#D91828;
+     font-family: 'raleway';
+     font-weight: normal;
+     text-align:center;
+     line-height: 1.5;
+     text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    }
+  }
 
 .white-block h2 {
     text-align:center;
@@ -204,7 +292,6 @@
     position:absolute;
     left:0px;
     background: linear-gradient(to right bottom, #4EBFB4 49%, #fff 50%); 
-  
 }
 
 
@@ -268,11 +355,11 @@
     width: 100%;
     
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     justify-items: center;
-
 }
+
 
 
 .card {
@@ -282,16 +369,17 @@
 	padding: 20px;
     width: calc(33.33% - 20px); 
     margin:20px;
+    margin-bottom: 40px;
 }
 
 
 .card img {
-	display: block;
-	margin: 0 auto;
+	margin: auto;
 	max-width: 100%;
     border-radius: 5%;
     object-fit: cover;
     height:250px;
+    padding:10px;
 }
 
 .card h5 {
@@ -318,6 +406,27 @@
     transform: scale(1.04);
 }
 
+
+  /*media query de cards*/
+  
+  @media screen and (max-width: 767px) {
+    .card {
+      width: 75%;
+      margin: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .card {
+      width: 30%;
+    }
+  }
 /* FIN  DE INDEX*/
 
 
@@ -333,30 +442,31 @@
 .cards-container-type2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     justify-items: center;
+    
     width: 150%;
+    margin-top: 30px;
 }
+
 
 .card-type2 {
     background-color: #f5f5f5;
 	border-radius: 10px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-	padding: 10px;
-    width:100%;
-    margin-top: 30px;
-    margin-left:15px;
-    justify-content: center;
-    align-items: center;
+	padding: 20px;
+    width: calc(33.33% - 20px); 
+    margin:20px;
+    margin-bottom: 40px;
 }
 
 .card-type2 img {
-    object-fit: cover;
-    justify-content: center;
+    margin: auto;
 	max-width: 100%;
     border-radius: 5%;
-    height: 150;
-    margin-left: 20px;
+    object-fit: cover;
+    height:auto;
+    padding:10px;
 }
 
 .card-type2 h5 {
@@ -382,6 +492,40 @@
     filter: opacity(0.9);
     transform: scale(1.04);
 }
+
+ /*media query de cards top 3*/
+  
+ @media screen and (max-width: 767px) {
+
+    .cards-container-type2 { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-type2 {
+      width: 75%;
+      margin: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .cards-container-type2 { 
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .card-type2 {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .card-type2 {
+      width: 30%;
+    }
+  }
 /* FIN DEL TOP3*/
 
 
@@ -420,8 +564,29 @@
 }
 
 
+/*******
+query de galeria
+******/
+@media screen and (max-width: 767px) {
+    .gallery-heading {
+        font-size: 1,5rem;
+        margin-top: 50px;
+    }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.gallery-heading {
+    font-size: 2rem;
+    margin-top: 20px;
+    }
+}
 
+@media screen and (min-width: 1024px) {
+    .gallery-heading {
+        font-size: 3rem;
+        margin-top: auto;
+    }
+}
 
 /*********************                    
  *  4. COMUNIDAD     *
@@ -495,7 +660,7 @@
  *********************/
 .form-container { 
     width: 100%;
-    padding: 20px;
+    
 
     display: flex;
     flex-direction: row;
@@ -505,9 +670,8 @@
 .form-ganz {
     background-color: #f4fad0;
     border-radius: 20px;
-    padding-right: 10px;
     margin:5%;
-    width: 70%;
+    width: 50%;
     
     font-size: 20px;
     font-family: 'work sans';
@@ -516,10 +680,9 @@
 
 .personas-descoordenados {
     margin:5%;
-    padding-left: 10px;
     background-color: #fff;
     border-radius: 20px;
-    width:30%;
+    width:50%;
 
     font-family: 'work sans';
     font-size: 16px;
@@ -527,10 +690,12 @@
 
 }
 
-.personas-descoordenados img {
-    border-radius: 5%;
+.personas-descoordenados img { 
     padding: 20px;
+    width: 350px;
+    height: auto;
 }
+
 
 
 
@@ -540,7 +705,8 @@
 /*********************                    
  *ESTILOS DEL FOOTER *
  *********************/
-.foot-form {
+
+.foot-form { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -549,7 +715,7 @@
     background-image: url(../Multimedia1/color12.png);
 }
 
-.foot-form p {
+.foot-form p  {
     color:#222222;
     font-family: 'raleway';
     font-size: 16px;
