@@ -679,6 +679,8 @@ query de galeria
  * 5. CONTACTO       *
  *********************/
 
+/*formulario*/
+
  .comunidad-h3-1 {
     width: 100%;
     color: #BA384A;
@@ -714,7 +716,7 @@ query de galeria
 
 }
 
-
+/*parte 2 de comunidad*/
 .personas-descoordenados {
     margin:5%;
     background-color: #fff;
@@ -728,9 +730,11 @@ query de galeria
 
 .personas-descoordenados img { 
     padding: 20px;
-    width: 100%;
+    width: 300px;
+    height: auto;
     overflow-x: hidden;
     border-radius: 35%;
+   
 
 }
 
