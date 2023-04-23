@@ -24,7 +24,8 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-image: url(../Multimedia1/color12.png);
+    background-color: #d9cf4a;
+    position: relative;
 }   
 
 h1 {
@@ -145,7 +146,7 @@ h2 {
 /*********************                    
  *ESTILOS DEL NAVBAR *
  *********************/
-
+ 
 .nav-bar {
     background-color:#d9cf4a;
     width: 100%; 
@@ -803,7 +804,7 @@ query de galeria
     align-items: center;
     justify-content: center;
     width:100%;
-    background-image: url(../Multimedia1/color12.png);
+    background-color: #d9cf4a;
 }
 
 .foot-form p  {
