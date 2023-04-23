@@ -53,18 +53,16 @@
       <ul class="nav-list">
         <li><a href="../index.html" class="nav-list-text">Inicio</a></li>
         <li>
-          <a href="../Pages1/Nuestro Top 3.html" class="nav-list-text"
-            >Nuestro Top 3</a
-          >
+          <a href="./Nuestro Top 3.html" class="nav-list-text">Nuestro Top 3</a>
         </li>
         <li>
-          <a href="../Pages1/Galeria.html" class="nav-list-text">Galeria</a>
+          <a href="./Galeria.html" class="nav-list-text">Galeria</a>
         </li>
         <li>
-          <a href="../Pages1/Comunidad.html" class="nav-list-text">Comunidad</a>
+          <a href="./Comunidad.html" class="nav-list-text">Comunidad</a>
         </li>
         <li>
-          <a href="../Pages1/Contacto.html" class="nav-list-text">Contacto</a>
+          <a href="./Contacto.html" class="nav-list-text">Contacto</a>
         </li>
       </ul>
     </nav>
@@ -114,70 +112,77 @@
 
       <section class="white-block">
         <div class="form-container">
-          <div class="form-ganz col-sm-12 col-md-6">
-            <!--FORMULARIO-->
-            <form action="CONTACTO" class="formulario">
-              <label for="nombre">
-                Nombre:
-                <input type="Nombre" placeholder="Nombre completo" />
-              </label>
-
-              <label for="email">
-                Correo Electrónico:
-                <input type="email" placeholder="aaa@gmail.com" name="email" />
-              </label>
-
-              <div>
-                <p>Razón de contacto:</p>
-                Quiero conocerlos
-                <input type="radio" name="conocernos" value="conocernos" />
-              </div>
-
-              <div>
-                Tengo trabajo para ustedes
-                <input type="radio" name="trabajo" value="trabajo" />
-              </div>
-
-              <div>
-                <label for="Ubicación actual">
-                  Ubicación actual:
-                  <textarea placeholder="¿Dónde estás ahora?"></textarea>
-                </label>
-              </div>
-
-              <div>
-                <label for="Punto de encuentro">
-                  Punto de encuentro:
-                  <textarea
-                    placeholder="¿En dónde nos encontraremos?"
-                  ></textarea>
-                </label>
-              </div>
-
-              <p>Ya nos sigues en YouTube?</p>
-              <select name="text" id="text">
-                <option value="SI">SI</option>
-                <option value="NO">NO</option>
-                <option value="Sólo en Instagram">Sólo en Instagram</option>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputName" class="form-label">Nombre</label>
+              <input type="Name" class="form-control" id="inputName" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label"
+                >Lugar de encuentro</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Por ej: Colón y Gral Paz"
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputPlace" class="form-label">Específico</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputPlace"
+                placeholder="Por ej: zapatería de Raúl"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Región</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option value="Centro">Centro</option>
+                <option value="Cuyo">Cuyo</option>
+                <option value="Litoral">Litoral</option>
+                <option value="NOA">NOA</option>
+                <option value="NEA">NEA</option>
+                <option value="Patagonia">Patagonia</option>
               </select>
+            </div>
 
-              <div>
-                ¿Quieres suscribierte a nuestro foro y seguir aportando tus
-                ideas y experiencias?
-                <input type="checkbox" name="acepta" value="SI" />
+            <div class="col-md-2">
+              <label for="inputDate" class="form-label">¿Cuándo?</label>
+              <input type="text" class="form-control" id="inputDate" />
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Notificame
+                </label>
               </div>
-
-              <input type="submit" value="ENVIAR CUESTIONARIO" />
-              <input type="reset" value="RESETEAR" />
-            </form>
-          </div>
-          <!-- FIN FORMULARIO-->
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Coordinar</button>
+            </div>
+          </form>
 
           <div class="personas-descoordenados col-sm-12 col-md-6">
-            <!-- ASIDE DEL FORM-->
             <img
-              src="../Multimedia1/sandia amarilla.jpg"
-              alt="personas-descoordenados"
+              src="../Multimedia1/paleta de 3 cruces_1.jpg"
+              alt="ruta en puna"
             />
             <h3 class="comunidad-h3-1">
               ¿Descoordenados, nosotros? Definitvamente

@@ -660,29 +660,38 @@ query de galeria
  *********************/
 .form-container { 
     width: 100%;
-    
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -200px;
 }
 
-.form-ganz {
-    background-color: #f4fad0;
-    border-radius: 20px;
-    margin:5%;
-    width: 50%;
-    
-    font-size: 20px;
-    font-family: 'work sans';
-    color:#222222;
+.form-label {
+    color:#4EBFB4;
+    font-family: 'raleway';
+	font-size: 14px;
+	
 }
+
+.form-check-label {
+    color:#4EBFB4;
+    font-family: 'raleway';
+	font-size: 20px;
+}
+.form-check-label:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+.btn-primary:hover {
+    background-color: #4EBFB4;
+
+}
+
 
 .personas-descoordenados {
     margin:5%;
     background-color: #fff;
     border-radius: 20px;
-    width:50%;
+    width:100%;
 
     font-family: 'work sans';
     font-size: 16px;
@@ -692,11 +701,19 @@ query de galeria
 
 .personas-descoordenados img { 
     padding: 20px;
-    width: 350px;
-    height: auto;
+    width: 100%;
+    overflow-x: hidden;
 }
 
+.personas-descoordenados p {
+    color: #666;
+    font-family: 'raleway';
+	font-size: 20px;
+	line-height: 1.5;
+	margin:20px;
+	text-align: justify;
 
+} 
 
 
 
