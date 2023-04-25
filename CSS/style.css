@@ -148,38 +148,25 @@ h2 {
 /*********************                    
  *ESTILOS DEL NAVBAR *
  *********************/
-
-.nav-bar {
-    background-color:#d9cf4a;
-    width: 100%; 
-    margin:0;
-    padding: 0;
-    top: 0;
+ .container-fluid { 
+    background-image: url(../Multimedia/color12.png);
+    width: 100%;
+    height: auto; 
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
     position:relative;
-}
 
-.nav-list {
-    text-align: center;
-    margin-top: -15px;
-    margin-right:0;
-}
+ }
+ 
 
-.nav-list li { 
-    list-style-type: none;
-    display: inline-block;
-    margin: 15px;
-    
-
-}
-
-.nav-list-text {
+.navbar-collapse { 
     color:#222222;
     text-decoration: none;
     font-family: 'raleway';
-    font-size: 20px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
-    
+
 }
 
 
@@ -400,6 +387,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     justify-items: center;
+    color: #2B8C71;
 }
 
 
@@ -802,7 +790,7 @@ query de galeria
     align-items: center;
     justify-content: center;
     width:100%;
-    background-color: #d9cf4a;
+    background-image: url(../Multimedia/color12.png);
 }
 
 .foot-form p  {
