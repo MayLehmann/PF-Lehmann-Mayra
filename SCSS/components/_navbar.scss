@@ -1,0 +1,132 @@
+.container-fluid { 
+    background-image: url(../Multimedia/color12.png);
+    width: 100%;
+    height: auto; 
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    position:relative;
+
+}
+
+.navbar-collapse { 
+    color:#222222;
+    text-decoration: none;
+    font-family: 'raleway';
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d9cf4a;
+    position: relative;
+}   
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color:#2B8C71;
+    font-family:'raleway';
+    font-weight: 700;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-bottom: 0;
+    color: #BA384A;
+    font-family:'raleway';
+    font-weight: 500;  
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+/* mobile*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d9cf4a;
+    position: relative;
+}   
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color:#2B8C71;
+    font-family:'raleway';
+    font-weight: 700;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-bottom: 0;
+    color: #BA384A;
+    font-family:'raleway';
+    font-weight: 500;  
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color:#2B8C71;
+    font-family:'raleway';
+    font-weight: 700;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #BA384A;
+    font-family:'raleway';
+    font-weight: 500;  
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.header-brand {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color:#2B8C71;
+    font-family:'raleway';
+    font-weight: 700;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: #BA384A;
+    font-family:'raleway';
+    font-weight: 500;  
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+}
+
