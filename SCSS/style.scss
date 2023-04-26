@@ -3,6 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700&display=swap');
 
 
+/* BASE*/
+
+@import './base/reset';
+@import './base/utilities';
+@import './base/vars';
+
+
+/* COMPONENTS*/
+@import './components/footer';
+@import './components/navbar';
+
+
+/* LAYOUT*/
+@import './layout/comunidad';
+@import './layout/contacto';
+@import './layout/galería';
+@import './layout/index';
+@import './layout/mediaqueries';
+@import './layout/top3';
+
+
+
 /*********************                    
  *EXTRA GENERALES    *
  *********************/
@@ -13,53 +35,3 @@
     opacity: 1;
     margin:0px;
 }
-
-
-/*********************                    
- *ESTILOS DEL HEADER *
- *********************/
-
-/*********************                    
- *ESTILOS DEL NAVBAR *
- *********************/
- 
-
-
-
-/*********************                    
- *SECCIONES DEL MAIN *
- *********************/
-
-
-
-
-
-
-
-
-
-/
-
-
-
-/*********************                    
- * 1. INDEX          *
- *********************/
-
-
-
-
-
-
-/*********************                    
- * 2. TOP 3          *
- *********************/
-
-
-
-
-
-/*********************                    
- *  4. COMUNIDAD     *
- *********************/
-
