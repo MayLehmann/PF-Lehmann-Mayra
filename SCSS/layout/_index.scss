@@ -89,24 +89,5 @@
 }
 
 
-/*media query de cards*/
 
-@media screen and (max-width: 767px) {
-    .card {
-        width: 75%;
-        margin: 15px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .card {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .card {
-        width: 30%;
-    }
-}
 /* FIN  DE INDEX*/

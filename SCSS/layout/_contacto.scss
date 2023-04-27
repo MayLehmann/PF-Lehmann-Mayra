@@ -26,10 +26,12 @@
    color:#4EBFB4;
    font-family: 'raleway';
    font-size: 20px;
+
+   & form-check-label:hover {
+      filter: opacity(0.9);
+      transform: scale(1.04);
 }
-.form-check-label:hover {
-   filter: opacity(0.9);
-   transform: scale(1.04);
+
 }
 .btn-primary:hover {
    background-color: #4EBFB4;
@@ -46,32 +48,40 @@
    font-family: 'work sans';
    font-size: 16px;
    
+
+   & img { 
+      padding: 20px;
+      width: 300px;
+      height: auto;
+      overflow-x: hidden;
+      border-radius: 35%;
+   
+   }
+
+   & p {
+      color: #666;
+      font-family: 'raleway';
+      font-size: 16px;
+      line-height: 1.5;
+      margin:20px;
+      text-align: justify;
+   
+   } 
+
+   & a {
+      text-decoration: none;
+   }
+
+   & hover{ 
+      filter: opacity(0.9);
+      transform: scale(1.04);
+   }
+   
 }
 
-.personas-descoordenados img { 
-   padding: 20px;
-   width: 300px;
-   height: auto;
-   overflow-x: hidden;
-   border-radius: 35%;
 
-}
 
-.personas-descoordenados p {
-   color: #666;
-   font-family: 'raleway';
-   font-size: 16px;
-   line-height: 1.5;
-   margin:20px;
-   text-align: justify;
 
-} 
 
-.personas-descoordenados a {
-   text-decoration: none;
-}
 
-.personas-descoordenados:hover{ 
-   filter: opacity(0.9);
-   transform: scale(1.04);
-}
+

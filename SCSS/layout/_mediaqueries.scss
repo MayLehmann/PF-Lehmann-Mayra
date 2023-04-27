@@ -40,3 +40,69 @@
 }
 
 
+/*media query de cards index*/
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 75%;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 30%;
+    }
+}
+
+
+
+
+/*******
+query de galeria
+******/
+@media screen and (max-width: 767px) {
+    .gallery-heading {
+        font-size: 1,5rem;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.gallery-heading {
+    font-size: 2rem;
+    margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery-heading {
+        font-size: 3rem;
+        margin-top: auto;
+    }
+}
+
+/* mediaquerie para comunidad*/
+@media screen and (min-width: 300px) and (max-width: 920px) {
+
+    .cards-container-type3 { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-type3 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card-type3 {
+        width: 50%;
+    }
+}
