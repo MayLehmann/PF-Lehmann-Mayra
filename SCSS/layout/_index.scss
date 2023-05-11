@@ -2,8 +2,8 @@
     padding: 30px;
     margin:10px;
     border-radius: 5%;
+    
 }
-
 
 
 /* CONTAINER 1de 3 y 2 de 3*/
@@ -30,7 +30,7 @@
 }
 
 .bottom-container {
-    background-color:#44A66E;
+    background-color:$maincolor;
 }
 
 /* CARDS */
@@ -41,7 +41,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     justify-items: center;
-    color: #44A66E71;
+    color:$maincolor;
 }
 
 
@@ -82,7 +82,7 @@
         text-align: justify;
     }
 
-    &hover {
+    & hover {
         filter: opacity(0.9);
         transform: scale(1.04);
     }
