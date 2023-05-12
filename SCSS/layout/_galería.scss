@@ -1,0 +1,28 @@
+
+.row {
+    margin-top: 40px;
+
+}
+
+
+.image-setting {
+    width: 100%;
+    height: auto;
+    border-radius: 8%;
+    margin-bottom: 1.5rem;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+
+    & image-setting:hover { 
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+}
+
+
+
+
+
