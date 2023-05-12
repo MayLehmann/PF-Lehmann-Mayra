@@ -5,6 +5,25 @@
     
 }
 
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-bottom: 0;
+    color: #BA384A;
+    font-family: "raleway";
+    font-weight: 500;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: #4EBFB4;
+    font-family: "raleway";
+    font-weight: 500;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
 
 /* CONTAINER 1de 3 y 2 de 3*/
 
@@ -14,6 +33,8 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+
+   
 }
 
 /* CONTAINER 3 de 3 + CARDS */
@@ -42,6 +63,8 @@
     justify-content: space-evenly;
     justify-items: center;
     color:$maincolor;
+
+    transform: translate(10px, 20px);
 }
 
 
@@ -64,7 +87,7 @@
         padding:10px;
     }
 
-    &h5 {
+    &h4 {
         color: #7BBF4B;
         font-family: 'raleway';
         font-size: 20px;
@@ -87,7 +110,5 @@
         transform: scale(1.04);
     }
 }
-
-
 
 /* FIN  DE INDEX*/
