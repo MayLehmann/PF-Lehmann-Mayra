@@ -1,11 +1,12 @@
 .container-fluid  { 
+    background-image: url(/multimedia/color12.png);
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width:100%;
-    background-image: url(/multimedia/color12.png);
-
+   
     & p{
         color:#201f1f;
         font-family: 'raleway';
